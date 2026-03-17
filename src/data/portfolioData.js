@@ -108,7 +108,7 @@ export const projects = [
     description:
       "PhishGuard is a machine learning powered phishing URL detection tool that analyzes and classifies URLs as safe or malicious in real time. Built using a trained NLP-based ML model, it extracts features from URLs and predicts phishing attempts with high accuracy.",
     tech: ["React", "Flask", "Vite", "Machine Learning", "NLP", "Git"],
-    github: "https://github.com/manches3003/phishguard",
+    github: "https://github.com/manches3003/phishing-detector",
     live: "https://phishing-detector-ten.vercel.app/",
   },
   {
