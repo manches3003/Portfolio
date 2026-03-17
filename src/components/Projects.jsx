@@ -65,6 +65,9 @@ export default function Projects() {
         <h2 className="section-title">Projects</h2>
         <div className="section-line" />
       </motion.div>
+      <a href={item.live} target="_blank" rel="noreferrer" className="project-live-btn">
+  View Live →
+</a>
 
       <div className="projects-grid">
         {projects.map((item, i) => (
