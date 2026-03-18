@@ -120,7 +120,7 @@ export const projects = [
       "NetProbe is a full-stack network security tool that performs port scanning on any target IP or domain. It identifies open ports, assesses risk levels for each one, calculates an overall security risk score, and generates a downloadable PDF security report with recommendations.",
     tech: ["React", "FastAPI", "Python-nmap", "Docker", "Git"],
     github: "https://github.com/manches3003/netprobe-port-scanner",
-    live: "https://netprobe-port-scanner.netlify.app/",
+    live: "https://netprobe-scanner.netlify.app/",
   },
 ];
 
