@@ -29,10 +29,24 @@ function ProjectCard({ item, index }) {
       <div className="project-top">
         <span className="project-num">{item.num}{item.featured ? " — Featured" : ""}</span>
         <div className="project-links-top">
-          <a href={item.github} target="_blank" rel="noreferrer" className="project-link-icon" title="GitHub">
+          <a
+            href={item.github}
+            target="_blank"
+            rel="noreferrer"
+            className="project-link-icon"
+            style={{ cursor: "pointer", pointerEvents: "all", position: "relative", zIndex: 20 }}
+            title="GitHub"
+          >
             <GithubIcon />
           </a>
-          <a href={item.live} target="_blank" rel="noreferrer" className="project-link-icon" title="Live Demo">
+          <a
+            href={item.live}
+            target="_blank"
+            rel="noreferrer"
+            className="project-link-icon"
+            style={{ cursor: "pointer", pointerEvents: "all", position: "relative", zIndex: 20 }}
+            title="Live Demo"
+          >
             <ExternalIcon />
           </a>
         </div>
@@ -43,7 +57,13 @@ function ProjectCard({ item, index }) {
       <div className="tech-tags" style={{ marginBottom: 24 }}>
         {(item.tech || []).map((t) => <span className="tech-tag" key={t}>{t}</span>)}
       </div>
-      <a href={item.live} target="_blank" rel="noreferrer" className="project-live-btn">
+      <a
+        href={item.live}
+        target="_blank"
+        rel="noreferrer"
+        className="project-live-btn"
+        style={{ cursor: "pointer", pointerEvents: "all", position: "relative", zIndex: 20 }}
+      >
         View Live →
       </a>
     </motion.div>
@@ -52,7 +72,6 @@ function ProjectCard({ item, index }) {
 
 export default function Projects() {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
-
   return (
     <section id="projects" className="section projects-section" ref={ref}>
       <motion.div
@@ -65,10 +84,6 @@ export default function Projects() {
         <h2 className="section-title">Projects</h2>
         <div className="section-line" />
       </motion.div>
-      <a href={item.live} target="_blank" rel="noreferrer" className="project-live-btn">
-  View Live →
-</a>
-
       <div className="projects-grid">
         {projects.map((item, i) => (
           <ProjectCard key={item.num} item={item} index={i} />
