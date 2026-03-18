@@ -67,20 +67,22 @@ export const languages = [
   { name: "German",   level: "Beginner (A2)",   dots: 2 },
 ];
 
-export const experience = [
+ export const experience = [
   {
-    period: "Jun 2025 – Sep 2025",
-    type: "Part-time",
-    role: "Assistant Professor",
-    company: "Kanan.co · Vadodara, India",
+    period: "Dec 2024 – Jan 2025",
+    type: "Internship",
+    role: "DevSecOps Engineer Intern",
+    company: "Sannibh Technologies · Vadodara, India",
     description:
-      "Worked as an Assistant Professor, supporting students and faculty in an academic setting.",
+      "Worked as a DevSecOps Engineer Intern at a startup, integrating security at every stage of a real-world banking system development project.",
     bullets: [
-      "Marked attendance and maintained student records regularly",
-      "Delivered lectures independently during the main professor's absence",
-      "Supported students with course content and academic queries",
+      "Performed vulnerability scanning and code analysis using OWASP ZAP to identify and report security flaws",
+      "Guided developers on secure coding practices — detecting hardcoded credentials and enforcing encryption standards",
+      "Eliminated common OWASP Top 10 vulnerabilities across the banking application codebase",
+      "Implemented data encryption measures to protect sensitive user information in the banking system",
+      "Awarded a certificate of completion by the company upon successful internship",
     ],
-    tech: ["Teaching", "Communication", "Microsoft Office", "Planning"],
+    tech: ["OWASP ZAP", "DevSecOps", "Encryption", "Vulnerability Scanning", "Secure SDLC"],
   },
   {
     period: "Feb 2025 – Apr 2025",
@@ -96,6 +98,20 @@ export const experience = [
       "Identified and reported suspicious IPs; coordinated IP blocking with clients",
     ],
     tech: ["Wazuh", "IRIS", "Shuffle", "SIEM", "SOAR", "Incident Response"],
+  },
+  {
+    period: "Jun 2025 – Sep 2025",
+    type: "Part-time",
+    role: "Assistant Professor",
+    company: "Kanan.co · Vadodara, India",
+    description:
+      "Worked as an Assistant Professor, supporting students and faculty in an academic setting.",
+    bullets: [
+      "Marked attendance and maintained student records regularly",
+      "Delivered lectures independently during the main professor's absence",
+      "Supported students with course content and academic queries",
+    ],
+    tech: ["Teaching", "Communication", "Microsoft Office", "Planning"],
   },
 ];
 
