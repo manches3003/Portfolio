@@ -131,6 +131,10 @@ export const skills = {
     { name: "C / C++",             pct: 72 },
     { name: "Django Framework",    pct: 75 },
     { name: "R Programming",       pct: 65 },
+    { name: "Android Development", pct: 60 },
+    { name: "AI/ML Development",    pct: 80 },
+    { name: "Web Development",     pct: 70 },
+    { name: "Mobile Development",  pct: 60 },
   ],
   backend: [
     { name: "Cyber Security",      pct: 85 },
@@ -138,6 +142,10 @@ export const skills = {
     { name: "DevSecOps",           pct: 78 },
     { name: "Incident Response",   pct: 80 },
     { name: "Network Security",    pct: 74 },
+    { name: "Flask",               pct: 70 },
+    { name: "FastAPI",             pct: 68 },
+    { name: "NLP / AI Development", pct: 60 },
+
   ],
   tools: [
     "Wazuh", "IRIS", "Shuffle", "Git", "Jira",
@@ -145,6 +153,9 @@ export const skills = {
     "Django", "Python", "Java", "Linux",
     "Android Studio", "Firebase", "ICT Safety",
     "NLP / AI", "SIEM", "SOAR", "DevSecOps", "Incident Handling",
+    "Threat Analysis", "Vulnerability Assessment", "Penetration Testing",
+    "Cyber Threat Intelligence", "Security Auditing", "Risk Management",
+    "Network Security", "Cloud Security", "Cryptography",
   ],
 };
 
@@ -172,5 +183,6 @@ export const education = [
 export const marqueeItems = [
   "Cyber Security", "Python", "SOC Analyst", "DevSecOps", "Wazuh",
   "Django", "Java", "SIEM", "SOAR", "NLP", "AI Development",
-  "Incident Response", "Linux", "Git", "Leipzig · Germany",
+  "Incident Response", "Linux", "Git", "Network Security", "Risk Management",
+  "Penetration Testing", "Cloud Security", "Cryptography", "Security Auditing",
 ];
